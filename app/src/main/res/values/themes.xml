@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Controledeestudos"
+        parent="Theme.MaterialComponents.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/roxo</item>
+        <item name="colorPrimaryDark">@color/roxo_escuro</item>
+        <item name="colorAccent">@color/azul</item>
+        <item name="colorOnPrimary">@color/branco</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+    </style>
+
+    <style name="Theme.Controledeestudos"
+        parent="Base.Theme.Controledeestudos" />
+
+</resources>

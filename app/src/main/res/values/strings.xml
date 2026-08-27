@@ -1,0 +1,84 @@
+<resources>
+
+    <string name="app_name">Study Control</string>
+
+    <string name="menu_adicionar">Add</string>
+    <string name="menu_sobre">About</string>
+    <string name="menu_configuracoes">Settings</string>
+    <string name="menu_disciplinas">Subjects</string>
+
+    <string name="salvar">Save</string>
+    <string name="limpar">Clear</string>
+    <string name="editar">Edit</string>
+    <string name="excluir">Delete</string>
+    <string name="voltar">Back</string>
+
+    <string name="sugerir_titulo">Suggest title</string>
+    <string name="titulo_sugerido">Title suggested</string>
+    <string name="nenhum_titulo_salvo">No saved title</string>
+
+    <string name="configuracoes">Settings</string>
+    <string name="config_ordenacao">List Sorting</string>
+    <string name="ordenar_titulo">Sort by Title</string>
+    <string name="ordenar_disciplina">Sort by Subject</string>
+    <string name="ordenar_status">Sort by Status</string>
+
+    <string name="restaurar_padrao">Restore Default</string>
+
+    <string name="toast_config_salva">Settings saved successfully</string>
+    <string name="toast_padrao_restaurado">Settings restored</string>
+
+    <string name="toast_salvo">Content saved successfully</string>
+    <string name="toast_excluido">Content deleted successfully</string>
+
+    <string name="titulo_cadastro">Study Content Registration</string>
+    <string name="nome_conteudo">Content name</string>
+    <string name="observacao">Note</string>
+    <string name="status">Status</string>
+
+    <string name="status_pendente">Pending</string>
+    <string name="status_estudado">Studied</string>
+
+    <string name="disciplina">Subject</string>
+    <string name="dificuldade">Difficulty</string>
+
+    <string name="data_estudo">Study Date</string>
+    <string name="selecionar_data">Select Date</string>
+
+    <string name="precisa_revisar">Need to review later?</string>
+
+    <string name="editar_conteudo">Edit Content</string>
+    <string name="cadastrar_conteudo">Register Content</string>
+    <string name="editando_conteudo">Editing Content</string>
+
+    <string name="revisar">Review</string>
+    <string name="selecione">Select</string>
+
+    <string name="campos_limpos">Fields cleared successfully!</string>
+
+    <string name="digite_nome_conteudo">Enter the content name</string>
+    <string name="digite_observacao">Enter the note</string>
+    <string name="selecione_status">Select the status</string>
+    <string name="selecione_disciplina">Select a subject</string>
+    <string name="selecione_dificuldade">Select the difficulty</string>
+
+    <string-array name="disciplinas">
+        <item>Select</item>
+        <item>Algorithms</item>
+        <item>Object-Oriented Programming</item>
+        <item>Data Structures</item>
+        <item>Database</item>
+        <item>Operating Systems</item>
+        <item>Computer Networks</item>
+        <item>Computer Architecture</item>
+        <item>Artificial Intelligence</item>
+    </string-array>
+
+    <string-array name="dificuldades">
+        <item>Select</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+</resources>

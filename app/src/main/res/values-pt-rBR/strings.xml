@@ -1,0 +1,84 @@
+<resources>
+
+    <string name="app_name">Controle de Estudos</string>
+
+    <string name="menu_adicionar">Adicionar</string>
+    <string name="menu_sobre">Sobre</string>
+    <string name="menu_configuracoes">Configurações</string>
+    <string name="menu_disciplinas">Disciplinas</string>
+
+    <string name="salvar">Salvar</string>
+    <string name="limpar">Limpar</string>
+    <string name="editar">Editar</string>
+    <string name="excluir">Excluir</string>
+    <string name="voltar">Voltar</string>
+
+    <string name="sugerir_titulo">Sugerir título</string>
+    <string name="titulo_sugerido">Título sugerido</string>
+    <string name="nenhum_titulo_salvo">Nenhum título salvo</string>
+
+    <string name="configuracoes">Configurações</string>
+    <string name="config_ordenacao">Ordenação da Lista</string>
+    <string name="ordenar_titulo">Ordenar por Título</string>
+    <string name="ordenar_disciplina">Ordenar por Disciplina</string>
+    <string name="ordenar_status">Ordenar por Status</string>
+
+    <string name="restaurar_padrao">Restaurar Padrão</string>
+
+    <string name="toast_config_salva">Configurações salvas com sucesso</string>
+    <string name="toast_padrao_restaurado">Configurações restauradas</string>
+
+    <string name="toast_salvo">Conteúdo salvo com sucesso</string>
+    <string name="toast_excluido">Conteúdo excluído com sucesso</string>
+
+    <string name="titulo_cadastro">Cadastro de Conteúdo de Estudo</string>
+    <string name="nome_conteudo">Nome do conteúdo</string>
+    <string name="observacao">Observação</string>
+    <string name="status">Status</string>
+
+    <string name="status_pendente">Pendente</string>
+    <string name="status_estudado">Estudado</string>
+
+    <string name="disciplina">Disciplina</string>
+    <string name="dificuldade">Dificuldade</string>
+
+    <string name="data_estudo">Data de estudo</string>
+    <string name="selecionar_data">Selecionar data</string>
+
+    <string name="precisa_revisar">Precisa revisar depois?</string>
+
+    <string name="editar_conteudo">Editar Conteúdo</string>
+    <string name="cadastrar_conteudo">Cadastrar Conteúdo</string>
+    <string name="editando_conteudo">Editando conteúdo</string>
+
+    <string name="revisar">Revisar</string>
+    <string name="selecione">Selecione</string>
+
+    <string name="campos_limpos">Campos limpos com sucesso!</string>
+
+    <string name="digite_nome_conteudo">Digite o nome do conteúdo</string>
+    <string name="digite_observacao">Digite a observação</string>
+    <string name="selecione_status">Selecione o status</string>
+    <string name="selecione_disciplina">Selecione uma disciplina</string>
+    <string name="selecione_dificuldade">Selecione a dificuldade</string>
+
+    <string-array name="disciplinas">
+        <item>Selecione</item>
+        <item>Algoritmos</item>
+        <item>Programação Orientada a Objetos</item>
+        <item>Estruturas de Dados</item>
+        <item>Banco de Dados</item>
+        <item>Sistemas Operacionais</item>
+        <item>Redes de Computadores</item>
+        <item>Arquitetura de Computadores</item>
+        <item>Inteligência Artificial</item>
+    </string-array>
+
+    <string-array name="dificuldades">
+        <item>Selecione</item>
+        <item>Fácil</item>
+        <item>Média</item>
+        <item>Difícil</item>
+    </string-array>
+
+</resources>

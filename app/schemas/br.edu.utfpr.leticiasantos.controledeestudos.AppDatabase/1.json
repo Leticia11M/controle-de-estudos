@@ -1,0 +1,125 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "4b5c7886654a9d568a0cd7bce4aa3403",
+    "entities": [
+      {
+        "tableName": "disciplinas",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `nome` TEXT, `professor` TEXT)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nome",
+            "columnName": "nome",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "professor",
+            "columnName": "professor",
+            "affinity": "TEXT"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "conteudos",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `titulo` TEXT, `disciplina` TEXT, `dificuldade` TEXT, `status` TEXT, `observacao` TEXT, `revisar` INTEGER NOT NULL, `dataEstudo` TEXT, `disciplinaId` INTEGER NOT NULL, FOREIGN KEY(`disciplinaId`) REFERENCES `disciplinas`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "titulo",
+            "columnName": "titulo",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "disciplina",
+            "columnName": "disciplina",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "dificuldade",
+            "columnName": "dificuldade",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "status",
+            "columnName": "status",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "observacao",
+            "columnName": "observacao",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "revisar",
+            "columnName": "revisar",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dataEstudo",
+            "columnName": "dataEstudo",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "disciplinaId",
+            "columnName": "disciplinaId",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_conteudos_disciplinaId",
+            "unique": false,
+            "columnNames": [
+              "disciplinaId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_conteudos_disciplinaId` ON `${TABLE_NAME}` (`disciplinaId`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "disciplinas",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "disciplinaId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '4b5c7886654a9d568a0cd7bce4aa3403')"
+    ]
+  }
+}

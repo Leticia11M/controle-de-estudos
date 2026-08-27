@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Logo UTFPR -->
+        <ImageView
+            android:layout_width="260dp"
+            android:layout_height="120dp"
+            android:src="@drawable/utfpr"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+
+        <!-- Site UTFPR clicável -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="www.utfpr.edu.br"
+            android:textColor="@color/azul"
+            android:textSize="18sp"
+            android:autoLink="web"
+            android:paddingTop="10dp"/>
+
+        <!-- Nome do aplicativo -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aplicativo Controle de Estudos"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/roxo"
+            android:paddingTop="14dp"/>
+
+        <!-- Descrição do aplicativo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descrição: Este aplicativo permite cadastrar conteúdos de estudo, selecionar disciplina, definir nível de dificuldade (fácil, médio ou difícil), indicar status (pendente ou estudado) e marcar necessidade de revisão, auxiliando na organização do progresso acadêmico."
+            android:textSize="16sp"
+            android:textColor="@color/preto"
+            android:gravity="center"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"/>
+
+        <!-- Nome da autora -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autora: Leticia Fernanda Maioli Santos"
+            android:textSize="18sp"
+            android:textColor="@color/preto"
+            android:paddingTop="10dp"/>
+
+        <!-- Curso -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Curso: Engenharia de Computação"
+            android:textSize="18sp"
+            android:textColor="@color/preto"
+            android:paddingTop="6dp"/>
+
+        <!-- Email clicável -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="leticiasantos.2003@alunos.utfpr.edu.br"
+            android:textColor="@color/azul"
+            android:textSize="18sp"
+            android:autoLink="email"
+            android:paddingTop="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
